@@ -1,3 +1,8 @@
+# FuzzConn
+Matlab code for computing Fuzzy Connectedness in images
+
+---
+
 I guess it is really high time that I publish this code which I wrote for a lab assignment when teaching the Computer Assisted Image Analysis II Course at the Centre for Image Analysis, Uppsala University back in Fall 2008. The code was actually later used for bone segmentation in [1]. In case you find this code useful and wish to give credit to it, then please cite [1].
 
 
