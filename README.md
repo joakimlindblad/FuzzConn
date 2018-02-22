@@ -1,9 +1,9 @@
 # FuzzConn
-Matlab code for computing Fuzzy Connectedness in images
+Matlab and Mex code for computing Absolute and Relative Fuzzy Connectedness as well as Image Foresting Transform in 2D images 
 
 ---
 
-I guess it is really high time that I publish this code which I wrote for a lab assignment when teaching the Computer Assisted Image Analysis II Course at the Centre for Image Analysis, Uppsala University back in Fall 2008. The code was actually later used for bone segmentation in [1]. In case you find this code useful and wish to give credit to it, then please cite [1].
+Code I wrote for a lab assignment when teaching the Computer Assisted Image Analysis II Course at the Centre for Image Analysis, Uppsala University back in Fall 2008. The same code was actually later used for bone segmentation in [1]. In case you find this code useful and wish to give credit to it, then please cite [1].
 
 
 * The file afc.m provides an implementation of Absolute Fuzzy Connectedness according to kFOEMS in [3].
@@ -25,7 +25,7 @@ by multiple seeds from at least two classes. Classes are given by seed numbers s
     \> mex ift.cc
 
 I have tried my best to stay faithfull to the descriptions in the references below.
-Do use on too large image; the code is more aimed at pedagogic use than speed.
+Do not use on too large images; the code is more aimed at pedagogic use than speed.
 
 / Joakim
 
