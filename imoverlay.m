@@ -29,7 +29,9 @@ hold on
 h = image(ind2rgb(round(I.*size(map,1)),map));
 if ~isempty(mask)
 	set(h,'AlphaData',alpha.*mask);
-	contour(mask,[0.5 0.5]); %Emphasize the boundary
+	if c
+		contour(mask,[0.5 0.5]); %Emphasize the boundary
+	end
 else
 	set(h,'AlphaData',alpha);
 end
